@@ -1,5 +1,7 @@
 package com.anrisys.team_flow.users.application.service;
 
-public class UserApplicationService {
+import com.anrisys.team_flow.users.domain.model.User;
 
+public interface UserApplicationService {
+	User registerUser(RegisterUserCommand command);
 }
